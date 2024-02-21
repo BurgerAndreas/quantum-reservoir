@@ -1,12 +1,12 @@
-# Quantum Reservoir Computing Surrogate
+# Quantum Reservoir Computing (QRC)
 
-Surrogate: A 'quantum neural network' imitation of the Siemens reactor.
+Surrogate: A 'quantum neural network' imitation of a industrial reactor.
 
-Quantum Reservoir Computing: A fixed quantum circuit and a trained classical linear layer.
+Quantum Reservoir Computing: A fixed quantum circuit combined with a trained classical linear layer.
 
-Training (fitting) is done with a quadratic loss and ordinary least squares (OLS).
+Training (fitting) is done with a quadratic L2 loss and ordinary least squares (OLS).
 
-Contains three main QRC methods:
+Codebase contains three QRC methods:
 - QRewindingStatevectorRC (works well)
 - QExtremeLearningMachine (works but no quantum advantage)
 - QContinuousRC (not working yet)
